@@ -20,6 +20,10 @@ namespace SimpleLogger
             try
             {
                 var logStr = $"{DateTime.Now.ToShortDateString()} {DateTime.Now.ToLongTimeString()}, {whatHappened}, {severityLevel}";
+
+                // the previous line of code will create a string in the following format "6/26/2023 2:38:14 PM, Some kind of text, Medium"
+                // please write the value of the logStr variable to a file and return true if it was written to the file successfully.
+                
                 return false;
             }
             catch
